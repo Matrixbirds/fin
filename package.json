@@ -1,0 +1,33 @@
+{
+  "name": "fin",
+  "version": "1.0.0",
+  "description": "another nodejs web framework",
+  "main": "./build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rollup -c rollup.build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matrixbirds/fin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matrixbirds/fin/issues"
+  },
+  "homepage": "https://github.com/Matrixbirds/fin#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "rollup": "^0.67.4",
+    "rollup-plugin-babel": "^4.1.0",
+    "rxjs": "^6.3.3",
+    "socket.io": "^2.2.0"
+  },
+  "dependencies": {
+    "global": "^4.3.2"
+  }
+}
