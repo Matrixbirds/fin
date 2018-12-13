@@ -1,6 +1,6 @@
 export default {
   entry: 'src/main.js',
-  dest: 'build/index.js',
+  dest: 'index.js',
   format: 'umd',
   sourceMap: 'inline',
   output: {
