@@ -4,6 +4,10 @@ export default {
   format: 'umd',
   sourceMap: 'inline',
   output: {
-      name: 'bundle.min.js'
+      name: 'bundle.min.js',
+      globals: {
+          'events': 'EventEmitter',
+          'socket.io': 'io'
+      }
   }
 };

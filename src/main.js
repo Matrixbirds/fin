@@ -18,6 +18,9 @@ class Fin extends EventEmitter {
     socket () {
         return this._socket;
     }
+
+    createActor(obj) {
+    }
 }
 
 export default Fin;
